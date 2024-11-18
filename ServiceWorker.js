@@ -1,9 +1,9 @@
 const cacheName = "Andrew Dowsett-Carrot Commotion-0.2.2";
 const contentToCache = [
     "Build/the-box-game-web.loader.js",
-    "Build/the-box-game-web.framework.js.br",
-    "Build/the-box-game-web.data.br",
-    "Build/the-box-game-web.wasm.br",
+    "Build/the-box-game-web.framework.js.unityweb",
+    "Build/the-box-game-web.data.unityweb",
+    "Build/the-box-game-web.wasm.unityweb",
     "TemplateData/style.css"
 
 ];
