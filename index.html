@@ -32,12 +32,23 @@
       var progressBarFull = document.querySelector("#unity-progress-bar-full");
       var warningBanner = document.querySelector("#unity-warning");
 
-      function resizeCanvas() {
-            canvas.width = window.innerWidth;
-            canvas.height = window.innerHeight;
-        }
-        window.addEventListener("resize", resizeCanvas);
-        resizeCanvas();
+      function resizeCanvas()
+      {
+          //var w = window.innerWidth;
+          //var wh = window.innerHeight / 16 * 9;
+          //if (w > wh)
+          //{
+          //    canvas.width = wh;
+          //}
+          //else
+          //{
+		  //  canvas.width = w;
+          //}
+          canvas.width = window.innerWidth;
+          canvas.height = window.innerHeight;
+      }
+      window.addEventListener("resize", resizeCanvas);
+      resizeCanvas();
 
       // Shows a temporary message banner/ribbon for a few seconds, or
       // a permanent error message on top of the canvas if type=='error'.
