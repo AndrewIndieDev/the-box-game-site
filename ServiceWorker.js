@@ -1,4 +1,4 @@
-const cacheName = "Andrew Dowsett-Carrot Commotion-0.3.1";
+const cacheName = "Andrew Dowsett-Carrot Commotion-0.4.0";
 const contentToCache = [
     "Build/the-box-game-web.loader.js",
     "Build/the-box-game-web.framework.js.unityweb",
