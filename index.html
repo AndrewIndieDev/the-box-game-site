@@ -56,14 +56,13 @@
         updateBannerVisibility();
       }
 
-      var version = new Date().getTime();
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/the-box-game-web.loader.js?v=" + version;
+      var loaderUrl = buildUrl + "/the-box-game-web.loader.js";
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/the-box-game-web.data.unityweb?v=" + version,
-        frameworkUrl: buildUrl + "/the-box-game-web.framework.js.unityweb?v=" + version,
-        codeUrl: buildUrl + "/the-box-game-web.wasm.unityweb?v=" + version,
+        dataUrl: buildUrl + "/the-box-game-web.data.unityweb",
+        frameworkUrl: buildUrl + "/the-box-game-web.framework.js.unityweb",
+        codeUrl: buildUrl + "/the-box-game-web.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Andrew Dowsett",
         productName: "Carrot Commotion",
@@ -100,7 +99,6 @@
         });
       };
       document.body.appendChild(script);
-      
     </script>
   </body>
 </html>
