@@ -1,12 +1,5 @@
 const cacheName = "Andrew Dowsett-Carrot Commotion-0.4.5";
-const contentToCache = [
-    "Build/the-box-game-web.loader.js",
-    "Build/the-box-game-web.framework.js.unityweb",
-    "Build/the-box-game-web.data.unityweb",
-    "Build/the-box-game-web.wasm.unityweb",
-    "TemplateData/style.css"
-
-];
+const contentToCache = [];
 
 self.addEventListener('install', function (e) {
     console.log('[Service Worker] Install');
