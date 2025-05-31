@@ -56,17 +56,19 @@
         updateBannerVisibility();
       }
 
+      const GAME_VERSION = "0.4.3"; // Change this with every update!
+
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/the-box-game-web.loader.js";
+      var loaderUrl = buildUrl + "/the-box-game-web.loader.js?v=" + GAME_VERSION;
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/the-box-game-web.data.unityweb",
-        frameworkUrl: buildUrl + "/the-box-game-web.framework.js.unityweb",
-        codeUrl: buildUrl + "/the-box-game-web.wasm.unityweb",
+        dataUrl: buildUrl + "/the-box-game-web.data.unityweb?v=" + GAME_VERSION,
+        frameworkUrl: buildUrl + "/the-box-game-web.framework.js.unityweb?v=" + GAME_VERSION,
+        codeUrl: buildUrl + "/the-box-game-web.wasm.unityweb?v=" + GAME_VERSION,
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Andrew Dowsett",
         productName: "Carrot Commotion",
-        productVersion: "0.4.2",
+        productVersion: GAME_VERSION,
         showBanner: unityShowBanner,
       };
 
