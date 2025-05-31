@@ -1,4 +1,4 @@
-const cacheName = "Andrew Dowsett-Carrot Commotion-0.4.5";
+const cacheName = "Andrew Dowsett-Carrot Commotion-0.4.6";
 const contentToCache = [];
 
 self.addEventListener('install', function (e) {
