@@ -56,6 +56,19 @@
         updateBannerVisibility();
       }
 
+      // WebGL compatibility fix
+      if (typeof WebGL2RenderingContext !== 'undefined') {
+          const originalGetInternalformatParameter = WebGL2RenderingContext.prototype.getInternalformatParameter;
+          WebGL2RenderingContext.prototype.getInternalformatParameter = function(target, internalformat, pname) {
+              try {
+                  return originalGetInternalformatParameter.call(this, target, internalformat, pname);
+              } catch (e) {
+                  console.warn('WebGL getInternalformatParameter error caught:', e);
+                  return null;
+              }
+          };
+      }
+
       const GAME_VERSION = "0.4.7"; // Change this with every update!
 
       var buildUrl = "Build";
