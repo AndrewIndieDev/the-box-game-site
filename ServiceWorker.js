@@ -1,5 +1,5 @@
 // Update this version when you deploy new game builds
-const CACHE_VERSION = '0.4.6'; // Change this each time you update!
+const CACHE_VERSION = '0.4.7'; // Change this each time you update!
 const cacheName = `Andrew Dowsett-Carrot Commotion-${CACHE_VERSION}`;
 const contentToCache = [];
 
