@@ -1,6 +1,6 @@
 {
-    "name": "Carrot Commotion",
-    "short_name": "Carrot Commotion",
+    "name": "Carrot Commotion Demo",
+    "short_name": "Carrot Commotion Demo",
     "start_url": "index.html",
     "display": "fullscreen",
     "background_color": "#231F20",
