@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Carrot Commotion</title>
+    <title>Carrot Commotion Demo</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
     <link rel="manifest" href="manifest.webmanifest">
@@ -69,15 +69,15 @@
           };
       }
 
-      const GAME_VERSION = "1.1"; // Change this with every update!
+      const GAME_VERSION = "1.1.2"; // Change this with every update!
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/the-box-game-web.loader.js?v=" + GAME_VERSION;
+      var loaderUrl = buildUrl + "/the-box-game-site.loader.js?v=" + GAME_VERSION;
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/the-box-game-web.data.unityweb?v=" + GAME_VERSION,
-        frameworkUrl: buildUrl + "/the-box-game-web.framework.js.unityweb?v=" + GAME_VERSION,
-        codeUrl: buildUrl + "/the-box-game-web.wasm.unityweb?v=" + GAME_VERSION,
+        dataUrl: buildUrl + "/the-box-game-site.data.unityweb?v=" + GAME_VERSION,
+        frameworkUrl: buildUrl + "/the-box-game-site.framework.js.unityweb?v=" + GAME_VERSION,
+        codeUrl: buildUrl + "/the-box-game-site.wasm.unityweb?v=" + GAME_VERSION,
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Andrew Dowsett",
         productName: "Carrot Commotion Demo",
