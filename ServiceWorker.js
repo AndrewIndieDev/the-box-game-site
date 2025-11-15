@@ -1,6 +1,6 @@
 // Update this version when you deploy new game builds
-const CACHE_VERSION = '1.1.2'; // Change this each time you update!
-const cacheName = `Andrew Dowsett-Carrot Commotion Demo-${CACHE_VERSION}`;
+const CACHE_VERSION = '1.1.3'; // Change this each time you update!
+const cacheName = `Andrew Dowsett-Carrot Commotion-${CACHE_VERSION}`;
 const contentToCache = [];
 
 self.addEventListener('install', function (e) {
